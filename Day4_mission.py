@@ -1,11 +1,11 @@
-#7.9
-surprise = ["Groucho", "Chico", "Harpo"]
+#7.10
 
-a = surprise[2].lower()
-b= a[::-1]
-c = b.capitalize()
-print(c)
-surprise[2] = c
+even = []
+for number in range(10):
+    if number % 2 == 0:
+        even.append(number)
+    else:
+        continue
 
-print(surprise)
+print(even)
 
