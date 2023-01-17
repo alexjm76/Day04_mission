@@ -1,10 +1,24 @@
-#8.5
+#8.6
 
-dic ={
-    "dog" : "chien",
-    "cat" : "chat,",
-    "walrus" : "morse"
+life = {
+    "animals" : {
+        "cats" : "Henri",
+        "octopi" : "Grumpy",
+        "emus" : "Lucy"
+    },
+    "plants" : {},
+    "other" : {}
+
 }
 
-for i, j in dic.items():
-    print(i)
+#8.7
+
+print(life.keys())
+
+#8.8
+
+print(life["animals"].keys())
+
+#8.9
+print(life["animals"]["cats"])
+
