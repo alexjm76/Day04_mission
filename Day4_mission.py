@@ -6,4 +6,5 @@ dic ={
     "walrus" : "morse"
 }
 
-print(dic["walrus"])
+for item in dic.items():
+    print(item)
