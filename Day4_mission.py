@@ -1,24 +1,9 @@
-#8.6
 
-life = {
-    "animals" : {
-        "cats" : "Henri",
-        "octopi" : "Grumpy",
-        "emus" : "Lucy"
-    },
-    "plants" : {},
-    "other" : {}
 
-}
+#8.10
 
-#8.7
+squares = {}
 
-print(life.keys())
-
-#8.8
-
-print(life["animals"].keys())
-
-#8.9
-print(life["animals"]["cats"])
-
+for i in range(10):
+    squares[i] = i*i
+print(squares)
