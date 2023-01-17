@@ -5,6 +5,7 @@ dic ={
     "cat" : "chat,",
     "walrus" : "morse"
 }
-
-for item in dic.items():
-    print(item)
+new_dic={}
+for key,value in dic.items():
+    new_dic[value] = key
+print(new_dic)
