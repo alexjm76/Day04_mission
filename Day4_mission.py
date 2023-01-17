@@ -1,4 +1,4 @@
-#8.1
+#8.2
 
 dic ={
     "dog" : "chien",
@@ -6,3 +6,4 @@ dic ={
     "walrus" : "morse"
 }
 
+print(dic["walrus"])
