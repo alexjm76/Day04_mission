@@ -7,5 +7,4 @@ dic ={
 }
 
 for i, j in dic.items():
-    if j == "chien":
-        print(i)
+    print(i)
